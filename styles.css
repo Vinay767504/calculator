@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    background-color: #201d1d;
+    border: 1px solid #ccc;   
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    outline: none;
+}
+.btn{
+    background-color: rgb(51, 139, 109);
+}
+
+.operator {
+    background-color: #eee6e6;
+}
+.display-box{
+    background-color: white;
+}
+
+.color{
+    background-color: grey;
+}
+.calculator input[type="button"] {
+    color: white;
+  }
+  
